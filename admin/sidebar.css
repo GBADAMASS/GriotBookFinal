@@ -1,0 +1,149 @@
+/* Sidebar Global Styles */
+:root {
+    --griot-gold: #b5901f;
+    --griot-gold-dark: #8b6f1a;
+    --griot-gold-light: #c9a42d;
+    --dark-bg: #1a1a1a;
+    --sidebar-bg: #2d2d2d;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --border-color: #e0e0e0;
+}
+
+.sidebar {
+    width: 280px;
+    background: linear-gradient(180deg, var(--sidebar-bg) 0%, var(--dark-bg) 100%);
+    color: white;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-header {
+    padding: 30px 25px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.sidebar-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 8px;
+    object-fit: contain;
+    background: white;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.sidebar-logo h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--griot-gold);
+    margin: 0;
+}
+
+.admin-profile {
+    padding: 20px 25px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.admin-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--griot-gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.admin-name {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.admin-email {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.sidebar-menu {
+    padding: 20px 0;
+}
+
+.menu-item {
+    display: block;
+    padding: 15px 25px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.05);
+    color: white;
+    border-left-color: var(--griot-gold);
+}
+
+.menu-item.active {
+    background: rgba(255,255,255,0.1);
+    color: var(--griot-gold);
+    border-left-color: var(--griot-gold);
+}
+
+.menu-item i {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Mobile Responsive Sidebar */
+.mobile-toggle {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    background: var(--griot-gold);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(181, 144, 31, 0.3);
+}
+
+@media (max-width: 768px) {
+    .mobile-toggle {
+        display: block;
+    }
+
+    .sidebar {
+        transform: translateX(-100%);
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    /* Requirement: the main content margin must be handled in the pages or using a common class */
+}
