@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="format-detection" content="telephone=no">
 
-    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-    <title>Hot Coffee &#8211; Just another WordPress site</title>
+    <link rel="icon" type="image/x-icon" href="logo/1.png" />
+    <title>GriotBook &#8211; votre bibliothèque numérique d'histoire</title>
     <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Grand+Hotel|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=latin-ext" type='text/css' media='all' >
     <link rel='stylesheet' href='js/vendor/revslider/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/woo/woocommerce-layout.css' type='text/css' media='all' />
@@ -43,8 +43,8 @@
                         <div class="contact_logo">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="images/logo.png" class="logo_main" alt="" width="128" height="124">
-                                    <img src="images/alternative-logo.png" class="logo_fixed" alt="" width="161" height="47">
+                                    <img src="logo/1.png" class="logo_main" alt="" width="128" height="124">
+                                    <img src="logo/1.png" class="logo_fixed" alt="" width="161" height="47">
                                 </a>
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                 <div class="menu_button icon-menu"></div>
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/logo.png" class="logo_main" alt="" width="128" height="124">
+                        <img src="logo/1.png" class="logo_main" alt="" width="128" height="124">
                     </a>
                 </div>
                 <div class="menu_main_cart top_panel_icon">
