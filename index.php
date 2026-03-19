@@ -52,15 +52,20 @@
                             <a href="#" class="menu_main_responsive_button icon-menu"></a>
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#">Reservations</a>
+                                    <li class="menu-item current-menu-item"><a href="index.html">Comment ca marche</a></li>
+                                    <li class="menu-item current-menu-item"><a href="index.html">Pour qui</a></li>
+                                    <li class="menu-item current-menu-item"><a href="index.html">Pourquoi</a></li>
+                                    <li class="menu-item">
+                                        <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
+                                    </li>
+                                    <!-- <li class="menu-item menu-item-has-children"><a href="#">Reservations</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="calendar.html">Calendar</a></li>
                                             <li class="menu-item"><a href="tables.html">Tables Scheme</a></li>
                                         </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="menu.html">Menu</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
+                                    </li> -->
+                                    <!-- <li class="menu-item"><a href="menu.html">Menu</a></li> -->
+                                    <!-- <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="blog-sidebar.html">Blog With Sidebar</a></li>
                                             <li class="menu-item"><a href="blog.html">Blog Without Sidebar</a></li>
@@ -72,8 +77,8 @@
                                             </li>
                                             <li class="menu-item"><a href="post-formats.html">Post Formats</a></li>
                                         </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#">Features</a>
+                                    </li> -->
+                                    <!-- <li class="menu-item menu-item-has-children"><a href="#">Features</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item menu-item-has-children"><a href="#">Tools</a>
                                                 <ul class="sub-menu">
@@ -98,12 +103,12 @@
                                             </li>
                                             <li class="menu-item"><a href="404.html">404 Page</a></li>
                                         </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="shop.html">Shop</a></li>
-                                    <li class="menu-item"><a href="contacts.html">Contacts</a></li>
+                                    </li> -->
+                                    <!-- <li class="menu-item"><a href="shop.html">Shop</a></li>
+                                    <li class="menu-item"><a href="contacts.html">Contacts</a></li> -->
                                 </ul>
                             </nav>
-                            <div class="contact_cart">
+                            <!-- <div class="contact_cart">
                                 <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
                                     <span class="contact_icon icon-shopping"></span>
                                     <span class="contact_label contact_cart_label">Your cart:</span>
@@ -125,7 +130,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -168,9 +173,12 @@
                 <div class="panel_top">
                     <nav class="menu_main_nav_area">
                         <ul id="menu_main_mobile" class="menu_main_nav">
-                            <li class="menu-item current-menu-item"><a href="index.html">Comment ca marche</a></li>
-                            <li class="menu-item current-menu-item"><a href="index.html">Pourquoi</a></li>
-                            <li class="menu-item current-menu-item"><a href="index.html">Pour qui</a></li>
+                            <li class="menu-item current-menu-item"><a href="index.php">Comment ca marche</a></li>
+                            <li class="menu-item current-menu-item"><a href="index.php">Pour qui</a></li>
+                            <li class="menu-item current-menu-item"><a href="index.php">Pourquoi</a></li>
+                            <li class="menu-item">
+                                <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
+                            </li>
                             <!-- <li class="menu-item menu-item-has-children"><a href="#">Reservations</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="calendar.html">Calendar</a></li>
@@ -725,7 +733,7 @@
                                             <div class="vc_empty_space space10p">
                                                 <span class="vc_empty_space_inner"></span>
                                             </div>
-                                            <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_large" data-animation="animated fadeInUp normal">Most read articles</h2>
+                                            <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_large" data-animation="animated fadeInUp normal">Témoignages de nos utilisateurs</h2>
                                             <div class="vc_empty_space space10p">
                                                 <span class="vc_empty_space_inner"></span>
                                             </div>
@@ -734,15 +742,16 @@
                                                     <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
                                                         <div class="post_item post_item_short post_item_short_4 post_format_standard">
                                                             <div class="post_content isotope_item_content">
+                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
+                                                                    <img src="Photos/profile1.svg" alt="Marie Dupont" />
+                                                                </figure>
                                                                 <div class="post_info_wrap info">
                                                                     <div class="info-back">
-                                                                        <div class="post_cat">
-                                                                            <a href="#" rel="category tag">Cooking</a>
-                                                                        </div>
-                                                                        <h4 class="post_title">
-                                                                            <a href="single-post.html">Trend Spotting: French Tart</a>
-                                                                        </h4>
-                                                                        <div class="post_date">Posted February 15, 2016</div>
+                                                                        <h4 class="post_title">Marie Dupont</h4>
+                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
+                                                                            "GriotBook m'a permis de préserver les histoires de ma grand-mère. C'est un projet magnifique qui crée des liens entre les générations."
+                                                                        </p>
+                                                                        <div class="post_date">Février 15, 2024</div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -751,15 +760,16 @@
                                                     <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
                                                         <div class="post_item post_item_short post_item_short_4 post_format_standard">
                                                             <div class="post_content isotope_item_content">
+                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
+                                                                    <img src="Photos/profile2.svg" alt="Amadou Kone" />
+                                                                </figure>
                                                                 <div class="post_info_wrap info">
                                                                     <div class="info-back">
-                                                                        <div class="post_cat">
-                                                                            <a href="#" rel="category tag">Cooking</a>
-                                                                        </div>
-                                                                        <h4 class="post_title">
-                                                                            <a href="single-post.html">Secret of Making Smoked Pork</a>
-                                                                        </h4>
-                                                                        <div class="post_date">Posted February 15, 2016</div>
+                                                                        <h4 class="post_title">Amadou Kone</h4>
+                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
+                                                                            "J'aime partager mes histoires avec le monde. GriotBook rend cela facile et accessible pour tous."
+                                                                        </p>
+                                                                        <div class="post_date">Janvier 22, 2024</div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -768,15 +778,16 @@
                                                     <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
                                                         <div class="post_item post_item_short post_item_short_4 post_format_standard">
                                                             <div class="post_content isotope_item_content">
+                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
+                                                                    <img src="Photos/profile3.svg" alt="Sophie Leblanc" />
+                                                                </figure>
                                                                 <div class="post_info_wrap info">
                                                                     <div class="info-back">
-                                                                        <div class="post_cat">
-                                                                            <a href="#" rel="category tag">Cooking</a>
-                                                                        </div>
-                                                                        <h4 class="post_title">
-                                                                            <a href="single-post.html">Life is a Combination</a>
-                                                                        </h4>
-                                                                        <div class="post_date">Posted February 15, 2016</div>
+                                                                        <h4 class="post_title">Sophie Leblanc</h4>
+                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
+                                                                            "Une plateforme unique pour documenter notre patrimoine familial. Les souvenirs audio + photo créent une vraie connexion."
+                                                                        </p>
+                                                                        <div class="post_date">Décembre 10, 2023</div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -785,15 +796,16 @@
                                                     <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
                                                         <div class="post_item post_item_short post_item_short_4 post_format_standard">
                                                             <div class="post_content isotope_item_content">
+                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
+                                                                    <img src="Photos/profile4.svg" alt="David Traore" />
+                                                                </figure>
                                                                 <div class="post_info_wrap info">
                                                                     <div class="info-back">
-                                                                        <div class="post_cat">
-                                                                            <a href="#" rel="category tag">Cooking</a>
-                                                                        </div>
-                                                                        <h4 class="post_title">
-                                                                            <a href="single-post.html">Amazing Dining Rooms</a>
-                                                                        </h4>
-                                                                        <div class="post_date">Posted February 15, 2016</div>
+                                                                        <h4 class="post_title">David Traore</h4>
+                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
+                                                                            "GriotBook est une innovation remarquable. Chaque histoire devient un trésor pour les générations futures."
+                                                                        </p>
+                                                                        <div class="post_date">Novembre 28, 2023</div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -817,21 +829,21 @@
                 <div class="content_wrap">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="images/logo_footer.png" class="logo_footer" alt="" width="95" height="90">
+                            <img src="logo/1.png" class="logo_footer" alt="" width="95" height="90">
                         </a>
                     </div>
                     <div class="contacts_address">
                         <div class="about_company">
-                            Morbi sed justo felis. Phasellus condimentum ornare maximus.
-                            Nulla convallis tortor pellentesque tortor vulputate, eget bibendum nibh interdum.
+                            GriotBook préserve et partage les histoires audio et photo de chacun. 
+                            Une plateforme pour que vos voix et vos souvenirs deviennent un héritage vivant pour les générations futures.
                         </div>
                         <address class="address_right">
-                            Phone: 888-456-7890<br>
-                            Fax: 889-098-7654
+                            Email: contact@griotbook.com<br>
+                            Support: help@griotbook.com
                         </address>
                         <address class="address_left">
-                            Chicago, IL 60606<br>
-                            123, New Lenox
+                            Lome, Togo<br>
+                            Plateforme mondiale d'histoires
                         </address>
                     </div>
                     <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_medium">
@@ -868,9 +880,9 @@
             <div class="copyright_wrap_inner">
                 <div class="content_wrap">
                     <div class="copyright_text">
-                        <a href="#">ThemeRex</a> © 2015 All Rights Reserved
-                        <a href="#">Terms of Use</a> and
-                        <a href="#">Privacy Policy</a>
+                        <a href="#">GriotBook</a> © 2024 Tous droits réservés
+                        <a href="#">Conditions d'utilisation</a> et
+                        <a href="#">Politique de confidentialité</a>
                     </div>
                 </div>
             </div>

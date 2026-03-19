@@ -1392,7 +1392,7 @@ figure figcaption,
 }
 
 .sc_skills_bar .sc_skills_item .sc_skills_count {
-	border-color: #009f3b
+	/* border-color: #009f3b */
 }
 
 .sc_skills_bar .sc_skills_item .sc_skills_count,
