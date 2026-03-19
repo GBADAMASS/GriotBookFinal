@@ -56,7 +56,7 @@
                                     <li class="menu-item current-menu-item"><a href="index.html">Pour qui</a></li>
                                     <li class="menu-item current-menu-item"><a href="index.html">Pourquoi</a></li>
                                     <li class="menu-item">
-                                        <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
+                                        <a href="formulaire/form.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
                                     </li>
                                     <!-- <li class="menu-item menu-item-has-children"><a href="#">Reservations</a>
                                         <ul class="sub-menu">
@@ -971,10 +971,10 @@
         </div>
     </div>
 </div>
-
-<a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
+<!-- <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a> -->
 <div class="custom_html_section"></div>
 
+<?php require_once 'admin/includes/whatsapp_button.php'; echo getWhatsAppButton(); ?>
 <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='js/custom/custom.js'></script>
