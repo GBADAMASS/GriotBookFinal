@@ -543,11 +543,11 @@ $user_id = $_SESSION['user_id'] ?? null;
                             <a href="#" class="menu_main_responsive_button icon-menu"></a>
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li class="menu-item current-menu-item"><a href="index.html">Comment ca marche</a></li>
-                                    <li class="menu-item current-menu-item"><a href="index.html">Pour qui</a></li>
-                                    <li class="menu-item current-menu-item"><a href="index.html">Pourquoi</a></li>
+                                    <li class="menu-item current-menu-item"><a href="../index.php#comment-ca-marche">Comment ca marche</a></li>
+                                    <li class="menu-item current-menu-item"><a href="../index.php#pour-qui">Pour qui</a></li>
+                                    <li class="menu-item current-menu-item"><a href="../index.php#pourquoi-content">Pourquoi</a></li>
                                     <li class="menu-item">
-                                        <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
+                                        <a href="form.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
                                     </li>
                                 </ul>
                             </nav>

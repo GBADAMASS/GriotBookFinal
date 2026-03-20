@@ -452,7 +452,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1455545189644">
+                            <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1455545189644">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
@@ -467,7 +467,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_1.png" data-title="Corretto">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_1-300x281.png">
+                                                                            <img alt="" src="photo_icone/2.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -481,7 +481,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_2.png" data-title="Cioccolato-macchiato">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_2-300x281.png">
+                                                                            <img alt="" src="photo_icone/5.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -495,7 +495,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_3.png" data-title="Espresso">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_3-300x281.png">
+                                                                            <img alt="" src="photo_icone/6.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -509,7 +509,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_4.png" data-title="Caramel Macchiatto">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_4-300x281.png">
+                                                                            <img alt="" src="photo_icone/m1.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -523,7 +523,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_5.png" data-title="Irish Coffee">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_5-300x281.png">
+                                                                            <img alt="" src="photo_icone/m2.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -537,7 +537,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_6.png" data-title="Americano">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_6-300x281.png">
+                                                                            <img alt="" src="photo_icone/m3.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -551,7 +551,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_7.png" data-title="Doppio">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_7-300x281.png">
+                                                                            <img alt="" src="photo_icone/f1.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -565,7 +565,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_8.png" data-title="Caffe Latte">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_8-300x281.png">
+                                                                            <img alt="" src="photo_icone/f2.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -579,7 +579,7 @@
                                                                 <div class="sc_services_item_featured post_featured">
                                                                     <div class="post_thumb" data-image="images/services_9.png" data-title="Cappuccino">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
-                                                                            <img alt="" src="images/services_9-300x281.png">
+                                                                            <img alt="" src="photo_icone/f3.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -609,7 +609,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div> 
                             <div class="vc_row-full-width"></div>
                             <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
