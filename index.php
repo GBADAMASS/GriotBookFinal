@@ -26,6 +26,7 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.portfolio.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/responsive-sections.css' type='text/css' media='all' />
 </head>
 
 <body class="home page body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide preloader vc_responsive">

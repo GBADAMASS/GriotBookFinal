@@ -1,0 +1,503 @@
+/* Responsive Styles for "Pour Qui", "Pourquoi" and "Témoignages" Sections */
+
+/* DESKTOP and UP */
+@media (min-width: 769px) {
+    /* Pour Qui Cards - Compact */
+    #pour-qui .sc_section {
+        padding: 20px !important;
+        max-height: 280px !important;
+        overflow-y: auto;
+    }
+    
+    #pour-qui h3 {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    #pour-qui h3 i {
+        font-size: 24px !important;
+    }
+    
+    #pour-qui p {
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 10px !important;
+    }
+    
+    #pour-qui ul {
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+    
+    #pour-qui ul li {
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 4px !important;
+    }
+    
+    /* Pourquoi Cards - Compact */
+    #pourquoi-content .sc_section {
+        padding: 20px !important;
+        max-height: 180px !important;
+        overflow-y: auto;
+    }
+    
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > div[style*="padding: 40px"] {
+        padding: 20px !important;
+        max-height: 240px !important;
+        overflow-y: auto;
+    }
+    
+    #pourquoi-content h3 {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    #pourquoi-content ul li {
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 4px !important;
+    }
+}
+
+/* TABLET AND BELOW (768px) */
+@media (max-width: 768px) {
+    /* Pour Qui Section */
+    #pour-qui h2 {
+        font-size: 32px !important;
+    }
+    
+    #pour-qui > .wpb_column > .vc_column-inner > .wpb_wrapper > p {
+        font-size: 14px !important;
+    }
+    
+    #pour-qui .sc_section {
+        padding: 15px !important;
+        max-height: 220px !important;
+        overflow-y: auto;
+    }
+    
+    #pour-qui h3 {
+        font-size: 16px !important;
+        margin-bottom: 8px !important;
+    }
+    
+    #pour-qui p {
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+    }
+    
+    #pour-qui ul li {
+        font-size: 11px !important;
+        margin-bottom: 3px !important;
+    }
+    
+    /* Pourquoi Section */
+    #pourquoi-content h2 {
+        font-size: 32px !important;
+    }
+    
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > p {
+        font-size: 14px !important;
+    }
+    
+    #pourquoi-content h3 {
+        font-size: 16px !important;
+        margin-bottom: 8px !important;
+    }
+    
+    #pourquoi-content ul li {
+        font-size: 11px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 3px !important;
+    }
+    
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > div[style*="padding: 40px"] {
+        padding: 15px !important;
+        max-height: 200px !important;
+        overflow-y: auto;
+    }
+    
+    /* Testimonials Section */
+    #sc_blogger_282.sc_blogger h2 {
+        font-size: 32px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_title {
+        font-size: 16px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_item p {
+        font-size: 12px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_date {
+        font-size: 11px !important;
+    }
+}
+
+/* MOBILE (500px and below) - FLEX WITH WRAP */
+@media (max-width: 500px) {
+    /* Pour Qui Section */
+    #pour-qui {
+        padding: 30px 0 !important;
+    }
+    
+    #pour-qui h2 {
+        font-size: 26px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    #pour-qui > .wpb_column > .vc_column-inner > .wpb_wrapper > p {
+        font-size: 12px !important;
+    }
+    
+    /* Force 2-column layout on all rows */
+    #pour-qui .vc_row-fluid {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    #pour-qui .vc_row-fluid > * {
+        flex: 0 0 calc(50% - 4px) !important;
+        width: calc(50% - 4px) !important;
+        max-width: calc(50% - 4px) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    #pour-qui .vc_col-sm-6 {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        flex: 1 1 auto !important;
+    }
+    
+    #pour-qui .wpb_column {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    #pour-qui .vc_column_container {
+        width: 100% !important;
+    }
+    
+    #pour-qui .vc_column-inner {
+        width: 100% !important;
+    }
+    
+    #pour-qui .sc_section {
+        padding: 12px !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+    
+    #pour-qui h3 {
+        font-size: 14px !important;
+        margin-bottom: 6px !important;
+    }
+    
+    #pour-qui h3 i {
+        font-size: 20px !important;
+    }
+    
+    #pour-qui p {
+        font-size: 11px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 6px !important;
+    }
+    
+    #pour-qui ul li {
+        font-size: 10px !important;
+        margin-bottom: 2px !important;
+    }
+    
+    /* Pourquoi Section */
+    #pourquoi-content {
+        padding: 30px 0 !important;
+    }
+    
+    #pourquoi-content h2 {
+        font-size: 26px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > p {
+        font-size: 12px !important;
+        line-height: 1.6 !important;
+    }
+    
+    /* Force 2-column layout on all rows */
+    #pourquoi-content .vc_row-fluid {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    #pourquoi-content .vc_row-fluid > * {
+        flex: 0 0 calc(50% - 4px) !important;
+        width: calc(50% - 4px) !important;
+        max-width: calc(50% - 4px) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    #pourquoi-content .vc_col-sm-6 {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        flex: 1 1 auto !important;
+    }
+    
+    #pourquoi-content .wpb_column {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    #pourquoi-content .vc_column_container {
+        width: 100% !important;
+    }
+    
+    #pourquoi-content .vc_column-inner {
+        width: 100% !important;
+    }
+    
+    #pourquoi-content h3 {
+        font-size: 14px !important;
+        margin-bottom: 6px !important;
+    }
+    
+    #pourquoi-content h3 i {
+        font-size: 20px !important;
+    }
+    
+    #pourquoi-content ul li {
+        font-size: 10px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 2px !important;
+    }
+    
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > div[style*="padding: 40px"] {
+        padding: 12px !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+    
+    /* Statistics Mobile - FLEX WRAP */
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > div {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 5px !important;
+        justify-content: center !important;
+    }
+    
+    #pourquoi-content div[style*="padding: 30px"][style*="background: rgba(212"] {
+        padding: 12px !important;
+        flex: 0 1 calc(50% - 3px) !important;
+        min-width: 80px !important;
+    }
+    
+    #pourquoi-content div[style*="padding: 30px"][style*="background: rgba(212"] div[style*="font-size: 42px"] {
+        font-size: 28px !important;
+    }
+    
+    #pourquoi-content div[style*="padding: 30px"][style*="background: rgba(212"] p {
+        font-size: 11px !important;
+    }
+    
+    /* Testimonials Section Mobile - FLEX WRAP */
+    #sc_blogger_282.sc_blogger {
+        padding: 0 !important;
+    }
+    
+    #sc_blogger_282.sc_blogger h2 {
+        font-size: 26px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    .sc_blogger.layout_short_4 {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .sc_blogger.layout_short_4 .isotope_wrap {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 15px !important;
+        justify-content: center !important;
+    }
+    
+    .sc_blogger.layout_short_4 .isotope_item {
+        flex: 0 1 calc(50% - 8px) !important;
+        min-width: 150px !important;
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_item {
+        padding: 8px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_title {
+        font-size: 13px !important;
+        margin-bottom: 6px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_item p {
+        font-size: 10px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 6px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_date {
+        font-size: 9px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .sc_image {
+        max-width: 70% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+    }
+    
+    .sc_blogger.layout_short_4 .sc_image img {
+        max-width: 100% !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+}
+
+/* VERY SMALL MOBILE (375px and below) */
+@media (max-width: 375px) {
+    /* Pour Qui Section */
+    #pour-qui h2 {
+        font-size: 22px !important;
+        margin-bottom: 12px !important;
+    }
+    
+    #pour-qui > .wpb_column > .vc_column-inner > .wpb_wrapper > p {
+        font-size: 11px !important;
+    }
+    
+    #pour-qui .wpb_column {
+        flex: 0 1 100% !important;
+        min-width: auto !important;
+    }
+    
+    #pour-qui .sc_section {
+        padding: 10px !important;
+    }
+    
+    #pour-qui h3 {
+        font-size: 13px !important;
+        margin-bottom: 5px !important;
+    }
+    
+    #pour-qui h3 i {
+        font-size: 18px !important;
+    }
+    
+    #pour-qui p {
+        font-size: 10px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 5px !important;
+    }
+    
+    #pour-qui ul li {
+        font-size: 9px !important;
+        margin-bottom: 2px !important;
+    }
+    
+    /* Pourquoi Section */
+    #pourquoi-content h2 {
+        font-size: 22px !important;
+        margin-bottom: 12px !important;
+    }
+    
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > p {
+        font-size: 11px !important;
+    }
+    
+    #pourquoi-content .wpb_column {
+        flex: 0 1 100% !important;
+        min-width: auto !important;
+    }
+    
+    #pourquoi-content h3 {
+        font-size: 13px !important;
+        margin-bottom: 5px !important;
+    }
+    
+    #pourquoi-content h3 i {
+        font-size: 18px !important;
+    }
+    
+    #pourquoi-content ul li {
+        font-size: 9px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 2px !important;
+    }
+    
+    #pourquoi-content > .wpb_column > .vc_column-inner > .wpb_wrapper > div[style*="padding: 40px"] {
+        padding: 10px !important;
+    }
+    
+    /* Statistics Very Small - Full width */
+    #pourquoi-content div[style*="padding: 30px"][style*="background: rgba(212"] {
+        padding: 10px !important;
+        flex: 0 1 calc(50% - 5px) !important;
+        min-width: 70px !important;
+    }
+    
+    #pourquoi-content div[style*="padding: 30px"][style*="background: rgba(212"] div[style*="font-size: 42px"] {
+        font-size: 24px !important;
+    }
+    
+    #pourquoi-content div[style*="padding: 30px"][style*="background: rgba(212"] p {
+        font-size: 9px !important;
+    }
+    
+    /* Testimonials Very Small */
+    #sc_blogger_282.sc_blogger h2 {
+        font-size: 20px !important;
+        margin-bottom: 12px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .isotope_item {
+        flex: 0 1 100% !important;
+        min-width: auto !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_item {
+        padding: 6px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_title {
+        font-size: 11px !important;
+        margin-bottom: 4px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_item p {
+        font-size: 9px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 4px !important;
+    }
+    
+    .sc_blogger.layout_short_4 .post_date {
+        font-size: 8px !important;
+    }
+}
