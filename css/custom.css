@@ -513,6 +513,11 @@
 	text-transform: none !important;
 	border-radius: 4px !important;
 	transition: all 0.3s ease !important;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
 }
 
 .menu_main_nav .sc_button:hover {

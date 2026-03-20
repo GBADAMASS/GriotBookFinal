@@ -952,6 +952,12 @@ label.required:after {
 	padding-left:30px;
 	padding-right:30px;
 }
+
+.top_panel_style_3 .content_wrap {
+	width: 100% !important;
+	max-width: none !important;
+	padding: 0 !important;
+}
 .content, .sidebar, .sidebar_inner {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -1051,6 +1057,11 @@ html {
 /* Top panel */
 .top_panel_wrap {
 	position:relative;
+}
+
+.top_panel_style_3.top_panel_wrap {
+	width: 100%;
+	box-sizing: border-box;
 }
 .top_panel_fixed .top_panel_wrap {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -1252,25 +1263,29 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	line-height:1em;
 }
 
-/* Main and user menu */
 .menu_main_nav_area {
 	position:relative;
 	z-index:1000;
 	display:none;
 }
 .menu_show .menu_main_nav_area {
-	display:block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.menu_user_nav > li:first-child {
-	margin-left:0;
+.menu_main_nav {
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
-.menu_user_nav > li,
 .menu_main_nav > li {
 	position:relative;
-	float:left;
+	float: none;
 	z-index:20;
+	display: flex;
+	align-items: center;
 }
 .menu_main_nav > li+li { z-index:19; }
 .menu_main_nav > li+li+li { z-index:18; }
@@ -1298,6 +1313,10 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	z-index:10000;
 }
 .menu_main_nav > li a {
+	display: block;
+	padding: 1.5em 0.75em;
+	text-align: center;
+	white-space: nowrap;
     letter-spacing: 0.03em;
 }
 .menu_main_nav > li > a {
@@ -1505,11 +1524,24 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 .top_panel_style_7 .content_wrap {
 	position:relative;
 }
+
+.top_panel_style_3 .content_wrap {
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .top_panel_style_3 .menu_main_wrap,
 .top_panel_style_4 .menu_main_wrap,
 .top_panel_style_6 .menu_main_wrap,
 .top_panel_style_7 .menu_main_wrap {
 	float: right;
+}
+
+.top_panel_style_3 .menu_main_wrap {
+	float: none !important;
 }
 
 .top_panel_style_4 .contact_logo,
@@ -1521,7 +1553,45 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	left: 0;
 }
 .top_panel_style_3 .contact_logo {
-    float: left;
+	float: none !important;
+}
+
+/* Flexbox alignment for style 3 */
+.top_panel_style_3 .top_panel_middle {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	gap: 0;
+	padding: 15px 0 !important;
+	margin: 0 !important;
+	width: 100% !important;
+}
+
+.top_panel_style_3 .top_panel_wrap_inner {
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.top_panel_style_3 .contact_logo {
+	order: 1;
+	flex-shrink: 0;
+	margin: 0;
+	padding-left: 30px;
+}
+
+.top_panel_style_3 .menu_main_wrap {
+	order: 2;
+	flex-grow: 0;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	margin: 0 auto 0 0;
+	padding: 0;
+	padding-right: 30px;
 }
 .top_panel_style_5 .top_panel_wrap_inner {
 	text-align:center;
@@ -1652,9 +1722,9 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 }
 
 
-/* Responsive menu */
 .menu_main_responsive_button {
 	display:none;
+	align-self: center;
 }
 .menu_main_responsive_button:before {
 	font-size:3em;
@@ -1717,10 +1787,13 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 }
 .responsive_menu .top_panel_style_3 .menu_main_responsive_button,
 .responsive_menu .top_panel_style_4 .menu_main_responsive_button {
-	position:absolute;
-	top:0;
-	right:0;
-	margin-top:0;
+	position: static;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5em;
+	margin-bottom: 0;
+	order: 3;
 }
 .responsive_menu .top_panel_style_5 .menu_main_nav_area,
 .responsive_menu .top_panel_style_6 .menu_main_nav_area,
@@ -4539,7 +4612,7 @@ blockquote cite {
 	padding:10px 4px;
 }
 .widget_area .widget_calendar td {
-	font-size:0.875em
+	font-size:0.875em;
 	padding:0;
 }
 .widget_area .widget_calendar .month_cur {

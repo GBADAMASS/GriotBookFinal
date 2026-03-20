@@ -41,8 +41,8 @@
                 <div class="top_panel_middle">
                     <div class="content_wrap">
                         <div class="contact_logo">
-                            <div class="logo">
-                                <a href="index.html">
+                            <div class="logo">  
+                                <a href="index.php">
                                     <img src="logo/1.png" class="logo_main" alt="" width="128" height="124">
                                     <img src="logo/1.png" class="logo_fixed" alt="" width="161" height="47">
                                 </a>
@@ -52,9 +52,9 @@
                             <a href="#" class="menu_main_responsive_button icon-menu"></a>
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li class="menu-item current-menu-item"><a href="index.html">Comment ca marche</a></li>
-                                    <li class="menu-item current-menu-item"><a href="index.html">Pour qui</a></li>
-                                    <li class="menu-item current-menu-item"><a href="index.html">Pourquoi</a></li>
+                                    <li class="menu-item current-menu-item"><a href="#comment-ca-marche">Comment ca marche</a></li>
+                                    <li class="menu-item current-menu-item"><a href="#pour-qui">Pour qui</a></li>
+                                    <li class="menu-item current-menu-item"><a href="#pourquoi-content">Pourquoi</a></li>
                                     <li class="menu-item">
                                         <a href="formulaire/form.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
                                     </li>
@@ -173,9 +173,9 @@
                 <div class="panel_top">
                     <nav class="menu_main_nav_area">
                         <ul id="menu_main_mobile" class="menu_main_nav">
-                            <li class="menu-item current-menu-item"><a href="index.php">Comment ca marche</a></li>
-                            <li class="menu-item current-menu-item"><a href="index.php">Pour qui</a></li>
-                            <li class="menu-item current-menu-item"><a href="index.php">Pourquoi</a></li>
+                            <li class="menu-item current-menu-item"><a href="#comment-ca-marche">Comment ca marche</a></li>
+                            <li class="menu-item current-menu-item"><a href="#pour-qui">Pour qui</a></li>
+                            <li class="menu-item current-menu-item"><a href="#pourquoi-content">Pourquoi</a></li>
                             <li class="menu-item">
                                 <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
                             </li>
@@ -618,7 +618,7 @@
                                                 <div id="rev_slider_2_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
                                                     <div id="rev_slider_2_2" class="rev_slider fullwidthabanner" data-version="5.1">
                                                         <ul>
-                                                            <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+                                                            <li id="comment-ca-marche" data-index="rs-4" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
                                                                 <img src="images/transparent.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                                                 <div class="tp-caption Hotcoffee-style-7 tp-resizeme" id="slide-4-layer-1" data-x="643" data-y="238" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:500;s:500;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">Enregistrez</div>
                                                                 <div class="tp-caption Hotcoffee-style-8 tp-resizeme" id="slide-4-layer-2" data-x="645" data-y="359" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:500;s:500;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on">
@@ -694,37 +694,231 @@
                                 </div>
                             </div>
                             <div class="vc_row-full-width"></div>
-                            <!-- <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+                            <!-- POUR QUI SECTION -->
+                            <div id="pour-qui" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid" style="background: linear-gradient(135deg, #F5F1E8 0%, #FDFBF8 100%); padding: 80px 0;">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner ">
+                                    <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class="sc_parallax" data-parallax-speed="0.3" data-parallax-x-pos="50%" data-parallax-y-pos="50%">
-                                                <div class="sc_parallax_content bg2">
-                                                    <div class="sc_section margin_top_large">
-                                                        <div class="sc_section_inner"></div>
-                                                    </div>
-                                                    <div class="vc_empty_space space10p">
-                                                        <span class="vc_empty_space_inner"></span>
-                                                    </div>
-                                                    <div class="sc_section margin_top_huge margin_bottom_huge aligncenter" data-animation="animated fadeInUp normal">
-                                                        <div class="sc_section_inner">
-                                                            <figure class="sc_image  sc_image_shape_square margin_top_huge margin_bottom_huge">
-                                                                <img src="Photos/slide1.png" alt="" />
-                                                            </figure>
+                                            <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_large" data-animation="animated fadeInUp normal" style="font-size: 42px; font-weight: bold; color: #5C4033;">Pour Qui ?</h2>
+                                            <p class="sc_title sc_align_center margin_bottom_large" style="font-size: 16px; color: #6B5B54; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.8;">GriotBook est conçu pour toute personne souhaitant préserver, partager et valoriser son patrimoine culturel et familial.</p>
+                                            <div class="vc_row wpb_row vc_row-fluid" style="margin-top: 50px;">
+                                                <!-- Famille -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-6" data-animation="animated fadeInLeft normal">
+                                                    <div class="vc_column-inner">
+                                                        <div class="sc_section" style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(212,165,116,0.15); height: 100%; border-top: 4px solid #d4a574;">
+                                                            <div class="sc_section_inner">
+                                                                <h3 style="font-size: 22px; font-weight: bold; color: #5C4033; margin-bottom: 15px; text-align: center;">
+                                                                    <i class="icon-heart" style="font-size: 28px; color: #d4a574; margin-right: 10px;"></i>
+                                                                    <br>Les Familles
+                                                                </h3>
+                                                                <p style="font-size: 15px; color: #6B5B54; line-height: 1.8; text-align: justify;">
+                                                                    Créez une archive vivante des histoires familiales. Documentez les traditions, les généalogies et les mémorandum des générations antérieures avant qu'ils ne disparaissent.
+                                                                </p>
+                                                                <ul style="font-size: 14px; color: #6B5B54; line-height: 1.8;">
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Préservation multi-générations</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Partage sécurisé en famille</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Archive numérique durable</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="vc_empty_space space10p">
-                                                        <span class="vc_empty_space_inner"></span>
+                                                </div>
+                                                <!-- Chercheurs/Étudiants -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-6" data-animation="animated fadeInRight normal">
+                                                    <div class="vc_column-inner">
+                                                        <div class="sc_section" style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(212,165,116,0.15); height: 100%; border-top: 4px solid #d4a574;">
+                                                            <div class="sc_section_inner">
+                                                                <h3 style="font-size: 22px; font-weight: bold; color: #5C4033; margin-bottom: 15px; text-align: center;">
+                                                                    <i class="icon-graduation-cap" style="font-size: 28px; color: #d4a574; margin-right: 10px;"></i>
+                                                                    <br>Chercheurs & Étudiants
+                                                                </h3>
+                                                                <p style="font-size: 15px; color: #6B5B54; line-height: 1.8; text-align: justify;">
+                                                                    Accédez à une richesse de témoignages oraux et de contenus authentiques pour vos projets de recherche et d'étude en histoire et culture.
+                                                                </p>
+                                                                <ul style="font-size: 14px; color: #6B5B54; line-height: 1.8;">
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Sources primaires authentiques</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Contenu riche et diversifié</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Inspirations académiques</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="sc_section margin_top_large">
-                                                        <div class="sc_section_inner"></div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_row wpb_row vc_row-fluid" style="margin-top: 30px;">
+                                                <!-- Organisations -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-6" data-animation="animated fadeInLeft normal">
+                                                    <div class="vc_column-inner">
+                                                        <div class="sc_section" style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(212,165,116,0.15); height: 100%; border-top: 4px solid #d4a574;">
+                                                            <div class="sc_section_inner">
+                                                                <h3 style="font-size: 22px; font-weight: bold; color: #5C4033; margin-bottom: 15px; text-align: center;">
+                                                                    <i class="icon-handshake" style="font-size: 28px; color: #d4a574; margin-right: 10px;"></i>
+                                                                    <br>Organisations Culturelles
+                                                                </h3>
+                                                                <p style="font-size: 15px; color: #6B5B54; line-height: 1.8; text-align: justify;">
+                                                                    Documentez votre patrimoine collectif. Construisez une bibliothèque numérique pour votre communauté, organisation ou institution.
+                                                                </p>
+                                                                <ul style="font-size: 14px; color: #6B5B54; line-height: 1.8;">
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Gestion collaborative</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Mise en avant du patrimoine</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Accessibilité publique</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Conteurs -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-6" data-animation="animated fadeInRight normal">
+                                                    <div class="vc_column-inner">
+                                                        <div class="sc_section" style="padding: 30px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(212,165,116,0.15); height: 100%; border-top: 4px solid #d4a574;">
+                                                            <div class="sc_section_inner">
+                                                                <h3 style="font-size: 22px; font-weight: bold; color: #5C4033; margin-bottom: 15px; text-align: center;">
+                                                                    <i class="icon-mic" style="font-size: 28px; color: #d4a574; margin-right: 10px;"></i>
+                                                                    <br>Conteurs & Créateurs
+                                                                </h3>
+                                                                <p style="font-size: 15px; color: #6B5B54; line-height: 1.8; text-align: justify;">
+                                                                    Partagez vos histoires avec une audience mondiale. Transformez votre narration en contenu interactif et engageant.
+                                                                </p>
+                                                                <ul style="font-size: 14px; color: #6B5B54; line-height: 1.8;">
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Plateforme de visibilité</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Audience mondiale</li>
+                                                                    <li style="margin-bottom: 8px;"><i class="icon-check-circle" style="color: #d4a574; margin-right: 8px;"></i>Monétisation possible</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
+                            <div class="vc_row-full-width"></div>
+                            <!-- POURQUOI SECTION -->
+                            <div id="pourquoi-content" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid" style="background: linear-gradient(135deg, #5C4033 0%, #8B6F47 100%); padding: 80px 0; color: white;">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_large" data-animation="animated fadeInUp normal" style="font-size: 42px; font-weight: bold; color: white;">Pourquoi GriotBook ?</h2>
+                                            <p class="sc_title sc_align_center margin_bottom_large" style="font-size: 16px; color: rgba(255,255,255,0.9); max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.8;">Chaque jour, des histoires précieuses disparaissent. Des voix anciennes, des traditions oubliées, des souvenirs familiaux perdus à jamais. GriotBook transforme cette réalité en créant un héritage numérique immuable pour les générations futures.</p>
+                                            
+                                            <!-- PROBLEM vs SOLUTION -->
+                                            <div class="vc_row wpb_row vc_row-fluid" style="margin-top: 50px;">
+                                                <!-- LEFT: Le Problème -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-6" data-animation="animated fadeInLeft normal">
+                                                    <div class="vc_column-inner">
+                                                        <div style="padding: 40px; background: rgba(0,0,0,0.2); border-radius: 10px; border: 2px solid rgba(212,165,116,0.4);">
+                                                            <h3 style="font-size: 24px; font-weight: bold; color: #FFE5B4; margin-bottom: 25px; text-align: center;">
+                                                                <i class="icon-warning" style="margin-right: 10px;"></i>Le Problème
+                                                            </h3>
+                                                            <ul style="font-size: 15px; color: rgba(255,255,255,0.95); line-height: 2.2; list-style: none; padding: 0;">
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-close" style="position: absolute; left: 0; color: #FFB6C1; font-weight: bold;"></i>
+                                                                    Les histoires de nos aînés disparaissent chaque jour
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-close" style="position: absolute; left: 0; color: #FFB6C1; font-weight: bold;"></i>
+                                                                    Pas de place ou de support pour documenter notre patrimoine
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-close" style="position: absolute; left: 0; color: #FFB6C1; font-weight: bold;"></i>
+                                                                    Difficile de partager les souvenirs en famille de manière sécurisée
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-close" style="position: absolute; left: 0; color: #FFB6C1; font-weight: bold;"></i>
+                                                                    Les traditions culturelles risquent de se perdre
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-close" style="position: absolute; left: 0; color: #FFB6C1; font-weight: bold;"></i>
+                                                                    Pas de plateforme centralisée pour archiver les archives familiales
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- RIGHT: La Solution -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-6" data-animation="animated fadeInRight normal">
+                                                    <div class="vc_column-inner">
+                                                        <div style="padding: 40px; background: rgba(212,165,116,0.15); border-radius: 10px; border: 2px solid #d4a574;">
+                                                            <h3 style="font-size: 24px; font-weight: bold; color: #FFE5B4; margin-bottom: 25px; text-align: center;">
+                                                                <i class="icon-check-circle" style="margin-right: 10px;"></i>Notre Solution
+                                                            </h3>
+                                                            <ul style="font-size: 15px; color: rgba(255,255,255,0.95); line-height: 2.2; list-style: none; padding: 0;">
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-check" style="position: absolute; left: 0; color: #90EE90; font-weight: bold;"></i>
+                                                                    Une plateforme dédiée pour enregistrer et préserver les histoires
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-check" style="position: absolute; left: 0; color: #90EE90; font-weight: bold;"></i>
+                                                                    Interface simple, compatible audio, photo, vidéo
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-check" style="position: absolute; left: 0; color: #90EE90; font-weight: bold;"></i>
+                                                                    Partage sécurisé et contrôles d'accès personnalisés
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-check" style="position: absolute; left: 0; color: #90EE90; font-weight: bold;"></i>
+                                                                    Archive numérique permanente pour les générations futures
+                                                                </li>
+                                                                <li style="margin-bottom: 12px; padding-left: 30px; position: relative;">
+                                                                    <i class="icon-check" style="position: absolute; left: 0; color: #90EE90; font-weight: bold;"></i>
+                                                                    Plateforme mondiale pour connecter et célébrer les cultures
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- IMPACT STATISTICS -->
+                                            <div class="vc_row wpb_row vc_row-fluid" style="margin-top: 50px;">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <h3 style="font-size: 28px; font-weight: bold; color: #FFE5B4; text-align: center; margin-bottom: 40px;">L'Impact de GriotBook</h3>
+                                                </div>
+                                            </div>
+                                            <div class="vc_row wpb_row vc_row-fluid">
+                                                <!-- Stat 1 -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-3" data-animation="animated fadeInUp normal">
+                                                    <div class="vc_column-inner">
+                                                        <div style="padding: 30px; background: rgba(212,165,116,0.2); border-radius: 10px; text-align: center;">
+                                                            <div style="font-size: 42px; font-weight: bold; color: #FFE5B4; margin-bottom: 10px;">100+</div>
+                                                            <p style="color: rgba(255,255,255,0.95); font-size: 14px;">Histoires Archivées</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Stat 2 -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-3" data-animation="animated fadeInUp normal">
+                                                    <div class="vc_column-inner">
+                                                        <div style="padding: 30px; background: rgba(212,165,116,0.2); border-radius: 10px; text-align: center;">
+                                                            <div style="font-size: 42px; font-weight: bold; color: #FFE5B4; margin-bottom: 10px;">50+</div>
+                                                            <p style="color: rgba(255,255,255,0.95); font-size: 14px;">Pays Représentés</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Stat 3 -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-3" data-animation="animated fadeInUp normal">
+                                                    <div class="vc_column-inner">
+                                                        <div style="padding: 30px; background: rgba(212,165,116,0.2); border-radius: 10px; text-align: center;">
+                                                            <div style="font-size: 42px; font-weight: bold; color: #FFE5B4; margin-bottom: 10px;">15+</div>
+                                                            <p style="color: rgba(255,255,255,0.95); font-size: 14px;">Langues Supportées</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Stat 4 -->
+                                                <div class="wpb_column vc_column_container vc_col-sm-3" data-animation="animated fadeInUp normal">
+                                                    <div class="vc_column-inner">
+                                                        <div style="padding: 30px; background: rgba(212,165,116,0.2); border-radius: 10px; text-align: center;">
+                                                            <div style="font-size: 42px; font-weight: bold; color: #FFE5B4; margin-bottom: 10px;">24/7</div>
+                                                            <p style="color: rgba(255,255,255,0.95); font-size: 14px;">Accessible Toujours</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="vc_row-full-width"></div>
                             <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -974,7 +1168,7 @@
 <!-- <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a> -->
 <div class="custom_html_section"></div>
 
-<?php require_once 'admin/includes/whatsapp_button.php'; echo getWhatsAppButton(); ?>
+<?php require_once 'admin/includes/whatsapp_button.php'; echo getWhatsAppButton('css/whatsapp-float.css'); ?>
 <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='js/custom/custom.js'></script>

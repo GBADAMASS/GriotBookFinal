@@ -1,0 +1,79 @@
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    z-index: 9999;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+.whatsapp-float i {
+    color: white;
+    font-size: 28px;
+}
+
+.whatsapp-float .tooltip {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.whatsapp-float:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    right: 75px;
+}
+
+.whatsapp-float .tooltip::after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 6px solid transparent;
+    border-left-color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .whatsapp-float i {
+        font-size: 24px;
+    }
+    
+    .whatsapp-float .tooltip {
+        display: none;
+    }
+}

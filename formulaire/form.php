@@ -54,7 +54,7 @@ $user_id = $_SESSION['user_id'] ?? null;
         :root { --griot-gold: #b5901f; }
 
         /* ---- Global ---- */
-        body { background-color: #fafaf7; margin: 0; padding: 0; }
+        body { background-color: #d4d4cf; margin: 0; padding: 0; }
         
         /* ---- FIX FORMULAIRE LARGEUR ---- */
         .page_wrap {
@@ -1139,6 +1139,8 @@ $user_id = $_SESSION['user_id'] ?? null;
     });
 
 </script>
+
+<?php require_once '../admin/includes/whatsapp_button.php'; echo getWhatsAppButton('../css/whatsapp-float.css'); ?>
 </body>
 
 </html>
