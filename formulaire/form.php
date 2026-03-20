@@ -924,8 +924,8 @@ $user_id = $_SESSION['user_id'] ?? null;
     </div>
 </div>
 
-<a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
-<div class="custom_html_section"></div>
+<!-- <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
+<div class="custom_html_section"></div> -->
 
 <script type='text/javascript' src='../js/vendor/jquery/jquery.js'></script>
 <script type='text/javascript' src='../js/vendor/jquery/jquery-migrate.min.js'></script>
