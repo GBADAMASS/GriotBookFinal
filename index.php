@@ -26,7 +26,6 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.portfolio.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/responsive-sections.css' type='text/css' media='all' />
 </head>
 
 <body class="home page body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide preloader vc_responsive">
@@ -411,7 +410,7 @@
                                                                                     </p>
                                                                                 </div>
                                                                             </div>
-                                                                            <!-- <a href="#" class="sc_button sc_button_square sc_button_style_style sc_button_size_small margin_top_small margin_bottom_small">Voir plus…</a> -->
+                                                                            <a href="#" class="sc_button sc_button_square sc_button_style_style sc_button_size_small margin_top_small margin_bottom_small">Voir plus…</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -465,126 +464,126 @@
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_1" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_1.png" data-title="Corretto">
+                                                                    <div class="post_thumb" data-image="images/services_1.png" data-title="Enregistrement">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/2.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Corretto</a>
+                                                                    <a href="single-post.html">Enregistrement</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_2" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_2.png" data-title="Cioccolato-macchiato">
+                                                                    <div class="post_thumb" data-image="images/services_2.png" data-title="Récits Audio">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/5.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Cioccolato-macchiato</a>
+                                                                    <a href="single-post.html">Récits Audio</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_3" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_3.png" data-title="Espresso">
+                                                                    <div class="post_thumb" data-image="images/services_3.png" data-title="Voix Authentiques">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/6.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Espresso</a>
+                                                                    <a href="single-post.html">Voix Authentiques</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_4" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_4.png" data-title="Caramel Macchiatto">
+                                                                    <div class="post_thumb" data-image="images/services_4.png" data-title="Photos Mémoire">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/m1.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Caramel Macchiatto</a>
+                                                                    <a href="single-post.html">Photos Mémoire</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_5" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_5.png" data-title="Irish Coffee">
+                                                                    <div class="post_thumb" data-image="images/services_5.png" data-title="Partage Familial">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/m2.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Irish Coffee</a>
+                                                                    <a href="single-post.html">Partage Familial</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_6" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_6.png" data-title="Americano">
+                                                                    <div class="post_thumb" data-image="images/services_6.png" data-title="Archives Vivantes">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/m3.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Americano</a>
+                                                                    <a href="single-post.html">Archives Vivantes</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_7" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_7.png" data-title="Doppio">
+                                                                    <div class="post_thumb" data-image="images/services_7.png" data-title="Patrimoine Collectif">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/f1.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Doppio</a>
+                                                                    <a href="single-post.html">Patrimoine Collectif</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_8" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_8.png" data-title="Caffe Latte">
+                                                                    <div class="post_thumb" data-image="images/services_8.png" data-title="Générations Liées">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/f2.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Caffe Latte</a>
+                                                                    <a href="single-post.html">Générations Liées</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
                                                         <div class="column-1_3 column_padding_bottom">
                                                             <div id="sc_services_258_9" class="sc_services_item">
                                                                 <div class="sc_services_item_featured post_featured">
-                                                                    <div class="post_thumb" data-image="images/services_9.png" data-title="Cappuccino">
+                                                                    <div class="post_thumb" data-image="images/services_9.png" data-title="Communauté Mondiale">
                                                                         <a class="hover_icon hover_icon_link" href="single-post.html">
                                                                             <img alt="" src="photo_icone/f3.png">
                                                                         </a>
                                                                     </div>
                                                                 </div>
                                                                 <h4 class="sc_services_item_title">
-                                                                    <a href="single-post.html">Cappuccino</a>
+                                                                    <a href="single-post.html">Communauté Mondiale</a>
                                                                 </h4>
                                                             </div>
                                                         </div>
@@ -921,90 +920,30 @@
                                 </div>
                             </div>
                             <div class="vc_row-full-width"></div>
-                            <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid">
+                            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
-                                            <div class="vc_empty_space space10p">
-                                                <span class="vc_empty_space_inner"></span>
-                                            </div>
-                                            <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_large" data-animation="animated fadeInUp normal">Témoignages de nos utilisateurs</h2>
-                                            <div class="vc_empty_space space10p">
-                                                <span class="vc_empty_space_inner"></span>
-                                            </div>
-                                            <div id="sc_blogger_282" class="sc_blogger layout_short_4 template_portfolio margin_top_tiny margin_bottom_small sc_blogger_horizontal no_description" data-animation="animated fadeInUp normal">
-                                                <div class="isotope_wrap" data-columns="4">
-                                                    <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
-                                                        <div class="post_item post_item_short post_item_short_4 post_format_standard">
-                                                            <div class="post_content isotope_item_content">
-                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
-                                                                    <img src="Photos/profile1.svg" alt="Marie Dupont" />
-                                                                </figure>
-                                                                <div class="post_info_wrap info">
-                                                                    <div class="info-back">
-                                                                        <h4 class="post_title">Marie Dupont</h4>
-                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
-                                                                            "GriotBook m'a permis de préserver les histoires de ma grand-mère. C'est un projet magnifique qui crée des liens entre les générations."
-                                                                        </p>
-                                                                        <div class="post_date">Février 15, 2024</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                            <div class="sc_parallax" data-parallax-speed="0.3" data-parallax-x-pos="50%" data-parallax-y-pos="50%">
+                                                <div class="sc_parallax_content bg2">
+                                                    <div class="sc_section margin_top_large">
+                                                        <div class="sc_section_inner"></div>
+                                                    </div>
+                                                    <div class="vc_empty_space space10p">
+                                                        <span class="vc_empty_space_inner"></span>
+                                                    </div>
+                                                    <div class="sc_section margin_top_huge margin_bottom_huge aligncenter" data-animation="animated fadeInUp normal">
+                                                        <div class="sc_section_inner">
+                                                            <figure class="sc_image  sc_image_shape_square margin_top_huge margin_bottom_huge">
+                                                                <img src="images/coffee-pot.png" alt="" />
+                                                            </figure>
                                                         </div>
                                                     </div>
-                                                    <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
-                                                        <div class="post_item post_item_short post_item_short_4 post_format_standard">
-                                                            <div class="post_content isotope_item_content">
-                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
-                                                                    <img src="Photos/profile2.svg" alt="Amadou Kone" />
-                                                                </figure>
-                                                                <div class="post_info_wrap info">
-                                                                    <div class="info-back">
-                                                                        <h4 class="post_title">Amadou Kone</h4>
-                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
-                                                                            "J'aime partager mes histoires avec le monde. GriotBook rend cela facile et accessible pour tous."
-                                                                        </p>
-                                                                        <div class="post_date">Janvier 22, 2024</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <div class="vc_empty_space space10p">
+                                                        <span class="vc_empty_space_inner"></span>
                                                     </div>
-                                                    <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
-                                                        <div class="post_item post_item_short post_item_short_4 post_format_standard">
-                                                            <div class="post_content isotope_item_content">
-                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
-                                                                    <img src="Photos/profile3.svg" alt="Sophie Leblanc" />
-                                                                </figure>
-                                                                <div class="post_info_wrap info">
-                                                                    <div class="info-back">
-                                                                        <h4 class="post_title">Sophie Leblanc</h4>
-                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
-                                                                            "Une plateforme unique pour documenter notre patrimoine familial. Les souvenirs audio + photo créent une vraie connexion."
-                                                                        </p>
-                                                                        <div class="post_date">Décembre 10, 2023</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="isotope_item isotope_item_short isotope_item_short_4 isotope_column_4">
-                                                        <div class="post_item post_item_short post_item_short_4 post_format_standard">
-                                                            <div class="post_content isotope_item_content">
-                                                                <figure class="sc_image sc_image_shape_square margin_bottom_small">
-                                                                    <img src="Photos/profile4.svg" alt="David Traore" />
-                                                                </figure>
-                                                                <div class="post_info_wrap info">
-                                                                    <div class="info-back">
-                                                                        <h4 class="post_title">David Traore</h4>
-                                                                        <p style="margin: 0.5rem 0; font-size: 14px; font-style: italic;">
-                                                                            "GriotBook est une innovation remarquable. Chaque histoire devient un trésor pour les générations futures."
-                                                                        </p>
-                                                                        <div class="post_date">Novembre 28, 2023</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <div class="sc_section margin_top_large">
+                                                        <div class="sc_section_inner"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1012,7 +951,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="vc_row-full-width"></div>
                         </section>
                     </article>
                     <section class="related_wrap related_wrap_empty"></section>

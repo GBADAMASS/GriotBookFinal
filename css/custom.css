@@ -71,47 +71,21 @@
 }
 
 .bg1 {
-	background-image:url(../Photos/Design_sans_titre-removebg-preview.png); 
-	background-position: center bottom;
-	padding-left: -30%;
-	padding-right: 30%;
-	/* padding-top: -10%; */
-	height: 150%;
+	background-image:url(../Photos/Design_sans_titre__1_-removebg-preview.png); 
+	background-position:50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
 	width: 120%;
-	background-size: cover;
-}
-.sc_parallax_overlay {
-	/* background: rgba(0, 0, 0, 0.3); */
-	padding: 0.5rem;
-}
-.sc_parallax_overlay .sc_section {
-	margin-bottom: 0 !important;
-}
-.sc_parallax_overlay .sc_section_inner {
-	margin-top: 0 !important;
-	margin-bottom: 0 !important;
-}
-.sc_parallax_overlay .sc_title {
-	margin-top: 0 !important;
-	margin-bottom: 0.1rem !important;
-	line-height: 1;
-}
-.sc_parallax_overlay p {
-	margin: 0 !important;
-	line-height: 1.2;
+	padding-left: -160px;
+	padding-right: 30px;
 }
 
-.sc_parallax_overlay .sc_section_inner {
-	margin-top: 0 !important;
-	margin-bottom: 0 !important;
-}
-
-.sc_parallax_overlay .sc_title_big {
-	margin-top: 0 !important;
-	margin-bottom: 0.25rem !important;
-}.bg2 {
+.bg2 {
 	background-image:url(../images/3000x2000.png); 
 	background-position:50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
 }
 
 .breadcrumbs_1 {
@@ -334,7 +308,7 @@
 	padding:0px;
 	margin-top:0px;
 	margin-bottom:0px;
-	background-image:url(../Photos/Gemini_Generated_Image_42iikx42iikx42ii.png);
+	background-image:url(../images/bg_main_slider.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center bottom;
@@ -911,14 +885,14 @@
 
 
 .vc_custom_1455542959565 {
-	background-image: url(../Photos/Gemini_Generated_Image_42iikx42iikx42ii.png) ;
+	background-image: url(../images/bg_home_paralax.png) ;
 	background-position: center ;
 	background-repeat: no-repeat ;
 	background-size: cover ;
 }
 
 .vc_custom_1455545189644 {
-	background-image: url(../Photos/Gemini_Generated_Image_42iikx42iikx42ii.png);
+	background-image: url(../images/bg_04.jpg);
 	background-position: center;
 	background-repeat: no-repeat ;
 	background-size: cover ;
