@@ -935,7 +935,7 @@
                                                     <div class="sc_section margin_top_huge margin_bottom_huge aligncenter" data-animation="animated fadeInUp normal">
                                                         <div class="sc_section_inner">
                                                             <figure class="sc_image  sc_image_shape_square margin_top_huge margin_bottom_huge">
-                                                                <img src="images/coffee-pot.png" alt="" />
+                                                                <img src="Photos/slide2.png" alt="" />
                                                             </figure>
                                                         </div>
                                                     </div>
@@ -951,9 +951,11 @@
                                     </div>
                                 </div>
                             </div>
+                            
                         </section>
+                        <div class="vc_row-full-width"></div>
                     </article>
-                    <section class="related_wrap related_wrap_empty"></section>
+                    <!-- <section class="related_wrap related_wrap_empty"></section> -->
                 </div>
             </div>
         </div>
