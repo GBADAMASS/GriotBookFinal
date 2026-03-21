@@ -138,12 +138,12 @@
         </header>
         <div class="header_mobile">
             <div class="content_wrap">
-                <div class="menu_button icon-menu"></div>
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="logo/1.png" class="logo_main" alt="" width="128" height="124">
                     </a>
                 </div>
+                <div class="menu_button icon-menu"></div>
                 <!-- <div class="menu_main_cart top_panel_icon">
                     <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
                         <span class="contact_icon icon-shopping"></span>
@@ -177,7 +177,7 @@
                             <li class="menu-item current-menu-item"><a href="#pour-qui">Pour qui</a></li>
                             <li class="menu-item current-menu-item"><a href="#pourquoi-content">Pourquoi</a></li>
                             <li class="menu-item">
-                                <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
+                                <a href="formulaire/form.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Commencer votre histoire</a>
                             </li>
                             <!-- <li class="menu-item menu-item-has-children"><a href="#">Reservations</a>
                                 <ul class="sub-menu">

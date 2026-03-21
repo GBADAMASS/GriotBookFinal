@@ -502,6 +502,143 @@
 	box-shadow: 0 4px 8px rgba(236, 184, 129, 0.3) !important;
 }
 
+/* Header desktop : logo au tout début (bord gauche) */
+.top_panel_style_3 .top_panel_wrap_inner,
+.top_panel_style_3 .top_panel_middle,
+.top_panel_style_3 .content_wrap {
+	padding-left: 0 !important;
+}
+.top_panel_style_3 .content_wrap {
+	justify-content: flex-start !important;
+	gap: 140px;
+}
+.top_panel_style_3 .contact_logo {
+	margin-right: 60px;
+	margin-left: 0;
+	padding-left: 0 !important;
+}
+.top_panel_style_3 .contact_logo .logo,
+.top_panel_style_3 .contact_logo .logo a {
+	margin-left: 0;
+	padding-left: 0;
+}
+.body_style_fullwide .top_panel_style_3 .content_wrap {
+	padding-left: 0 !important;
+}
+.top_panel_style_3 .top_panel_wrap {
+	max-width: none;
+	left: 0;
+	right: 0;
+}
+.top_panel_style_3 .menu_main_wrap {
+	margin-left: 0;
+}
+body .top_panel_style_3 .contact_logo {
+	padding-left: 0 !important;
+	margin-left: 0 !important;
+}
+.page_wrap .top_panel_style_3.top_panel_wrap {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+/* Garder la même taille du logo et du menu au scroll (menu rétracté) */
+.top_panel_fixed .top_panel_style_3 .logo_main {
+	display: block !important;
+	max-height: 120px !important;
+}
+.top_panel_fixed .top_panel_style_3 .logo_fixed {
+	display: none !important;
+}
+.top_panel_fixed .top_panel_style_3 .menu_main_nav > li > a {
+	font-size: 0.85em !important;
+	padding: 0.9em 0.6em 0.3em !important;
+	margin: 0 0.8em !important;
+}
+.top_panel_fixed .top_panel_style_3 .menu_main_nav .sc_button {
+	font-size: 12px !important;
+	padding: 6px 14px !important;
+}
+
+/* Réduction de la taille du menu */
+.top_panel_style_3 .menu_main_nav > li > a {
+	font-size: 0.85em;
+	padding: 0.9em 0.6em 0.3em !important;
+	margin: 0 0.8em !important;
+}
+.top_panel_style_3 .menu_main_nav {
+	gap: 8px;
+}
+.menu_main_nav .sc_button {
+	padding: 6px 14px !important;
+	font-size: 12px !important;
+	margin-left: 12px !important;
+}
+
+/* Positionnement du menu : éviter que le bouton se cache derrière */
+.top_panel_style_3 .top_panel_wrap_inner,
+.top_panel_style_3 .content_wrap {
+	overflow: visible !important;
+}
+.top_panel_style_3 .menu_main_wrap {
+	position: relative;
+	z-index: 100;
+}
+.top_panel_style_3 .menu_main_responsive_button,
+.top_panel_style_3 .menu_main_nav .sc_button,
+.top_panel_style_3 .menu_main_nav > li {
+	position: relative;
+	z-index: 101;
+}
+/* Bouton toujours décollé du bord droit (état initial et menu rétracté) */
+.top_panel_style_3 .content_wrap {
+	padding-right: 50px;
+	padding-left: 0 !important;
+}
+.top_panel_fixed .top_panel_style_3 .content_wrap,
+.top_panel_fixed .top_panel_style_3 .top_panel_wrap_inner,
+.top_panel_fixed .top_panel_style_3 .top_panel_middle {
+	padding-right: 50px;
+	padding-left: 0 !important;
+}
+.top_panel_wrap.top_panel_style_3,
+.top_panel_fixed .top_panel_wrap {
+	z-index: 10050 !important;
+}
+
+/* Header mobile responsive : logo au début, menu hamburger à droite */
+.header_mobile .content_wrap {
+	display: flex !important;
+	align-items: center;
+	justify-content: space-between;
+	text-align: left !important;
+	padding: 15px 20px;
+}
+.header_mobile .logo {
+	order: 1;
+	padding: 0 !important;
+	flex-shrink: 0;
+}
+.header_mobile .logo_main {
+	max-height: 70px;
+}
+.header_mobile .menu_button {
+	order: 2;
+	position: static !important;
+	margin: 0 !important;
+	left: auto !important;
+	right: auto !important;
+}
+
+@media (max-width: 480px) {
+	.header_mobile .content_wrap {
+		padding: 12px 16px;
+	}
+	.header_mobile .logo_main {
+		max-height: 60px;
+	}
+}
+
 /* Styles pour la navigation mobile */
 #menu_main_mobile .sc_button {
 	margin: 10px 0;
