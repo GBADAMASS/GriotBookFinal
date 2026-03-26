@@ -750,6 +750,10 @@ function hotcoffee_responsive_menu() {
 			body.removeClass('top_panel_fixed').addClass('menu_mobile');
 			header_top_panel_wrap.hide();
 			header_mobile.show();
+			// Safety: ensure page remains scrollable on mobile
+			jQuery('html').removeClass('menu_mobile_open');
+			header_mobile.find('.side_wrap').removeClass('open');
+			header_mobile.find('.mask').removeClass('show');
 			
 			jQuery('header #popup_login').attr('id', 'popup_login_1');
 			jQuery('header #popup_registration').attr('id', 'popup_registration_1');
@@ -761,6 +765,10 @@ function hotcoffee_responsive_menu() {
 			body.removeClass('menu_mobile');
 			header_top_panel_wrap.show();
 			header_mobile.hide();
+			// Safety: reset mobile menu state
+			jQuery('html').removeClass('menu_mobile_open');
+			header_mobile.find('.side_wrap').removeClass('open');
+			header_mobile.find('.mask').removeClass('show');
 			
 			jQuery('header #popup_login_1').attr('id', 'popup_login');
 			jQuery('header #popup_registration_1').attr('id', 'popup_registration');

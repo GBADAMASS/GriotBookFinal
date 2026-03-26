@@ -630,6 +630,48 @@ body .top_panel_style_3 .contact_logo {
 	right: auto !important;
 }
 
+/* Android/mobile: permettre le scroll et afficher tous les sous-menus */
+.header_mobile .side_wrap {
+	/* Ne pas fixer height: 100vh (Android + top offset = contenu coupé) */
+	height: auto;
+	max-height: 100vh;
+	overflow-y: auto !important;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	padding-bottom: 80px;
+}
+.header_mobile .side_wrap {
+	display: flex;
+	flex-direction: column;
+}
+.header_mobile .panel_top {
+	flex: 1 1 auto;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	padding-bottom: 60px;
+}
+.header_mobile .side_wrap {
+	touch-action: pan-y;
+	overscroll-behavior: contain;
+}
+.header_mobile .side_wrap .panel_top {
+	min-height: 0; /* nécessaire pour que flex + overflow scroll fonctionne */
+}
+
+/* Cas mobile (souvent top: 110px via responsive.css) */
+@media (max-width: 480px) {
+	.header_mobile .side_wrap {
+		max-height: calc(100vh - 110px);
+	}
+}
+.header_mobile .menu_main_nav > li ul {
+	overflow: visible !important;
+}
+.header_mobile .menu_main_nav > li.opened > ul,
+.header_mobile .menu_main_nav > li > ul.opened {
+	display: block;
+}
+
 @media (max-width: 480px) {
 	.header_mobile .content_wrap {
 		padding: 12px 16px;
@@ -643,8 +685,32 @@ body .top_panel_style_3 .contact_logo {
 #menu_main_mobile .sc_button {
 	margin: 10px 0;
 	width: 100%;
-	text-align: center;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 17px 35px !important; /* même alignement que les liens du menu mobile */
+	box-sizing: border-box;
+}
+
+/* Forcer l'alignement des items du menu mobile */
+.header_mobile #menu_main_mobile {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	width: 100%;
+}
+.header_mobile #menu_main_mobile > li {
+	float: none !important;
+}
+.header_mobile #menu_main_mobile > li {
 	display: block;
+	width: 100%;
+}
+.header_mobile #menu_main_mobile > li > a {
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
 }
 
 /* Supprimer les bordures vertes et rendre tous les boutons jaunes */
